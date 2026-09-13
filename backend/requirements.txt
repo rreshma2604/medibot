@@ -1,0 +1,24 @@
+# --- API layer ---
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.9
+pydantic-settings>=2.6
+python-jose[cryptography]>=3.3   # JWT tokens for /login
+python-multipart>=0.0.12
+
+# --- Vector store + embeddings ---
+qdrant-client>=1.12
+fastembed>=0.4                   # dense AND sparse (BM25) embeddings
+
+# --- Document parsing ---
+docling>=2.7                     # structure-aware PDF parsing
+transformers>=4.44               # tokenizer used by HybridChunker
+
+# --- Reranking ---
+sentence-transformers>=3.2       # CrossEncoder
+
+# --- LLM ---
+groq>=0.11
+
+# --- Misc ---
+python-dotenv>=1.0
