@@ -50,7 +50,9 @@ python backend/scripts/ingest.py --recreate     # ~2 min, downloads models on fi
 
 python run_api.py                               # terminal 1 -> localhost:8000
 
-cd frontend && npm install && npm run dev       # terminal 2 -> localhost:3000
+cd frontend                                     # terminal 2 -> localhost:3000
+npm install
+npm run dev       
 ```
 
 > **Embedded Qdrant holds an exclusive lock on its storage folder.** Stop the API before re-running ingestion.
