@@ -38,17 +38,6 @@ Stop the API server before running `ingest.py`, and vice versa.
 | tech.anand | tech123 | technician | general, equipment |
 | admin.sys | admin123 | admin | all (+ SQL RAG) |
 
-## Architecture
-
-TODO
-
-## Adversarial RBAC tests
-
-TODO — 3 documented attempts with screenshots
-
-## Tool substitutions
-
-TODO
 
 ## Ingestion
 
